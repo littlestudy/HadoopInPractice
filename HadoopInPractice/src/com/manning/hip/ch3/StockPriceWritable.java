@@ -46,7 +46,7 @@ public class StockPriceWritable implements WritableComparable<StockPriceWritable
 		out.writeDouble(high);
 		out.writeDouble(low);
 		out.writeDouble(close);
-		out.writeDouble(volume);
+		out.writeInt(volume);
 		out.writeDouble(adjClose);
 	}
 
